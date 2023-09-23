@@ -2,6 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Rosarivo&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+  
   :root{
     --first-color:#7d8fff;
     --second-color:#fffa63;
@@ -13,7 +14,7 @@
     box-sizing:border-box;
   }
   body{
-    width: 640px;
+    width: 860px;
     height: auto;
     padding: 50px;
     margin:auto;  
@@ -32,7 +33,7 @@
     margin-bottom: 5px;
 }
 header img{
-    width: 120px;
+    width: 100px;
 }
 h1{
     font-family: 'Rosarivo', serif;
@@ -41,47 +42,48 @@ h1{
   }
   nav{
     display:flex;
-    flex-direction:column;
-    align-items: center;
+    flex-direction:row;
+    justify-content: space-around;
     border: 5px solid var(--thrid-color);
     background-color:var(--thrid-color);
     margin-bottom: 5px;
+    padding:15px;
+    font-weight: 600;
   }
   nav a {
     font-family: 'Roboto',serif;
-    font-size: 30px;
+    font-size: 20px;
     color:black;
     text-decoration:none;
   }
-  main{
-    display:grid;
-
-  }
-   main h2{
+  
+    h2{
     font-family:'Rosarivo', cursive;
     text-align: center;
     padding:15px ;
     border: 7px double var(--second-color);
     margin-bottom: 5px;
-    border-radius:10px;
-    
+    border-radius:10px;  
+  }
+  main {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows:1fr;
+    gap:5px;
+    margin-bottom:10px;
     
   }
-section{
-    display:grid;
-    grid-column: 1;
-    justify-content:center;
-    margin-bottom:10px;
-    border:3px solid var(--thrid-color)
-
-}
-ul li {
+  section{
+    border:4px solid var(--thrid-color);
+  }
+    
+    ul li {
+  
 margin-left: 8px;
 list-style: none;
 }
 h3{
-    width:540px;
-    text-align:center;
+  text-align: center;
     font-size:30px;
     font-family:'Roboto',serif;
     border:4px solid  var(--thrid-color);
@@ -92,8 +94,15 @@ font-family:'Roboto', serif;
 font-weight:800;
 font-size:21px;
 }
-p{
+section p{
     text-align: center;
+    margin-bottom:5px;
+    margin-top: 20px;
+    padding:5px;
+}
+footer p{
+  padding:5px;
+  text-align: center;
 }
 footer{
     border-bottom:5px solid var(--thrid-color);
