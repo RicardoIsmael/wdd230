@@ -1,15 +1,61 @@
-@media  screen and (max-width: 500px) {
+@media   (max-width: 500px) {
     body{
         width:499px;
     }
-    nav{
-        display:flex;
-        flex-direction:column;
-        text-align:center;
-    }
+
 main{
     display:flex;
     flex-direction:column;
 }
+/* Here I built the button, its position and shape*/
+button{
+    display:block;
+    cursor:pointer;
+}
+#menu {
+    position:relative;
+    bottom:7em;
+    left:23em;
+    border:1px solid #acff70;
+    background-color:#acff70;
+    color:blue;
     
 }
+#menu::before{
+    content: "📚";
+    width:15%;
+    
+}
+
+#menu.open::before{
+    content:"❎";
+}
+/* Here I built the block of nav*/
+.nave{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding:3px;
+    }
+.nave li{
+    display:none;
+}
+.nave li a {
+    display:block;
+}
+/*Here is class open that allows close and open the button */
+.open li{
+    display:block;
+    width:100%;
+}
+.open li a {
+    display:block;
+    text-align: center;
+}
+.active::before{
+    content:"❗"
+}
+
+}
+
+    
