@@ -1,12 +1,14 @@
-@media   (max-width: 500px) {
-    body{
-        width:499px;
-    }
+@media only screen and (max-width: 500px) {
 
-main{
-    display:flex;
-    flex-direction:column;
+    body{
+    width:499px;
 }
+main{
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+
 /* Here I built the button, its position and shape*/
 button{
     display:block;
@@ -16,7 +18,7 @@ button{
     position:relative;
     bottom:7em;
     left:23em;
-    border:1px solid #acff70;
+    ;order:1px solid #acff70;
     background-color:#acff70;
     color:blue;
     

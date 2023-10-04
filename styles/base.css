@@ -13,6 +13,7 @@
     padding:0;
     box-sizing:border-box;
   }
+
   body{
     width: 800px;
     height: auto;
@@ -119,3 +120,4 @@ footer{
     border-bottom:5px solid var(--thrid-color);
 
 }
+
