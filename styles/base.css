@@ -39,6 +39,7 @@ button{
 }
 header img{
     width: 100px;
+    height:auto;
 }
 h1{
     font-family: 'Rosarivo', serif;
@@ -115,6 +116,10 @@ iframe{
 footer p{
   padding:5px;
   text-align: center;
+}
+footer img{
+  width: 30px;
+  height: auto;
 }
 footer{
     border-bottom:5px solid var(--thrid-color);
