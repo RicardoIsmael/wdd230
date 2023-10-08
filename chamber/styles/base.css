@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Vollkorn:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@1,9..40&family=Roboto:wght@300&family=Vollkorn:ital,wght@1,500&display=swap');
+
+:root{
+    --first: #010221;
+    --second:#0a7373;
+    --thrid: #b7bf99;
+    --fourth: #c43302;
+    --fiveth:#edaa25;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    width:760px;
+    height:auto;
+    margin:auto;
+    padding:3px;
+    font-family:'DM Sans', sans-serif;
+}
+
+header{
+    border: 2px solid var(--first);
+    text-align:center;
+    border-radius:10px;
+    margin-top:15px;
+    background-color:var(--first);
+    color:var(--thrid);
+    padding: 10px;
+}
+h2{
+    text-align:center;
+}
+
+
+.hero img{
+    width:100%; 
+    border:3px solid var(--first);
+    border-radius: 10px;
+    padding: 3px;
+    margin:2px auto; 
+
+}
+section{
+    border:3px solid var(--first);
+    border-radius: 10px;
+    padding: 5px;
+    margin:2px;    
+}
+section div{
+    border:2px solid var(--thrid);
+    border-radius:10px;
+    padding:3px;
+    margin: 2px;
+}
+
+ 
+/*Mobile screen
+==================================================*/
+
+.menu{
+    display:block;
+    font-size: 21px;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+.menu::before{
+    content:"▤";
+    color: white;
+    font-weight: 900;
+}
+
+.menu{
+    position:absolute;
+    top:1.2em;
+    margin-left:1em;
+       
+}
+nav{
+    background-color: var(--second);
+    border-radius:10px;
+    margin:3px; 
+
+}
+
+.nave{
+    list-style: none;
+    margin:0 auto;
+    width:100%;
+}
+.nave li{
+    display:none;
+}
+.nave a {
+    display: block;
+    padding: 8px;
+    text-align:left;
+    text-decoration: none;
+    color:var(--thrid);
+    transition: 0.6s;
+    font-size: clamp(17px,21px,23px);
+    font-weight: 700;
+}
+.nave a:hover{
+    color:white;
+    background-color: var(--first);
+}
+.open li{
+    display:block;
+}
+.menu .open::before{
+    content:"X"
+
+}
+/* Join a Chamber button creation
+=====================================================*/
+
+.boton{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    bottom:6rem;
+    margin-left:25%;
+    margin-right:25%;
+    border: 3px solid var(--fiveth);
+    border-radius:10px;
+    text-align: center;
+    background-color: var(--fourth);
+    padding: .5em;
+}
+.boton a{
+
+    text-decoration: none;
+    font-size: 23px;
+    font-weight:800;
+    color: var(--thrid);
+    
+
+}
+/*=======================================================*/
+
+
+footer  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:4px;
+    border:2px solid var(--first);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 700;
+    background-color: var(--first);
+    color:var(--thrid);
+}
+.sociallinks{
+    background-color:var(--first)
+}
+
+
+
+
+

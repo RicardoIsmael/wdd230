@@ -1,0 +1,38 @@
+@media only screen and (min-width:38em){
+   .nave{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+        
+   }
+    
+    .nave a {
+        text-align: center;
+        
+    }
+    .menu{
+        display: none;
+    }
+    .nave li{
+        display: grid;
+        grid-row:auto;
+        justify-content: space-around;      
+    }
+    
+    main {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    main .hero{
+        grid-column: span 2;
+    }
+    main .card{
+        display: block;
+    }
+    main .card:nth-child(4){
+        grid-column: span 2;
+    }
+
+
+}
