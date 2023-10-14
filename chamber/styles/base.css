@@ -4,7 +4,7 @@
 :root{
     --first: #010221;
     --second:#0a7373;
-    --thrid: #b7bf99;
+    --thrid: #ffffff;
     --fourth: #c43302;
     --fiveth:#edaa25;
 }
@@ -19,29 +19,50 @@ body{
     margin:auto;
     padding:3px;
     font-family:'DM Sans', sans-serif;
+    font-size:medium;
+    font-weight: 600;
 }
+
+/*Here is the Dark mode code
+===========================================================*/
+main{
+    background-color: #ffffff;
+    color: #000;
+}
+
 
 header{
     border: 2px solid var(--first);
-    text-align:center;
+    text-align: center;
     border-radius:10px;
     margin-top:15px;
     background-color:var(--first);
     color:var(--thrid);
     padding: 10px;
 }
+
+.change{
+    float:right;
+    font-size: 40px;
+    padding:10px;
+    cursor: pointer;
+}
+/*===============================================*/
 h2{
     text-align:center;
+    padding:8px;
 }
 
 
+
 .hero img{
-    width:100%; 
+    width:100%;
+    size-adjust:inherit;
     border:3px solid var(--first);
     border-radius: 10px;
     padding: 3px;
     margin:2px auto; 
-
+    
 }
 section{
     border:3px solid var(--first);
@@ -50,10 +71,27 @@ section{
     margin:2px;    
 }
 section div{
-    border:2px solid var(--thrid);
+    border:3px solid var(--second);
     border-radius:10px;
-    padding:3px;
-    margin: 2px;
+    padding: 10px;
+    margin: 3px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .cabildo img{
+    width:400px;
+    height: 200px;
+    aspect-ratio: 1/1;
+    margin:10px auto;
+    border-radius: 10px;
+    
+}
+.cabildo a{
+    text-decoration: none;
+    font-size: 18px;
+    color:var(--first)
 }
 
  
@@ -71,11 +109,12 @@ section div{
     content:"▤";
     color: white;
     font-weight: 900;
+    font-size: 45px;
 }
 
 .menu{
     position:absolute;
-    top:1.2em;
+    top:1.5em;
     margin-left:1em;
        
 }
@@ -88,8 +127,6 @@ nav{
 
 .nave{
     list-style: none;
-    margin:0 auto;
-    width:100%;
 }
 .nave li{
     display:none;
@@ -100,7 +137,7 @@ nav{
     text-align:left;
     text-decoration: none;
     color:var(--thrid);
-    transition: 0.6s;
+    transition: 0.5s;
     font-size: clamp(17px,21px,23px);
     font-weight: 700;
 }
@@ -110,7 +147,9 @@ nav{
 }
 .open li{
     display:block;
+    margin-left:45%;
 }
+
 .menu .open::before{
     content:"X"
 
@@ -123,7 +162,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-self: center;
-    bottom:6rem;
+    top:14rem;
     margin-left:25%;
     margin-right:25%;
     border: 3px solid var(--fiveth);

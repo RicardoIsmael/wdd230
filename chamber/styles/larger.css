@@ -1,4 +1,5 @@
-@media only screen and (min-width:55em){
+@media only screen and (min-width:60em){
+
     main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -14,6 +15,15 @@
     main .card:nth-child(4){
         grid-column: span 3;
    
+    }
+     .weather{
+    position:relative;
+    padding:100px 10px;
+    
+
+
+
+        
     }
 
 
