@@ -34,7 +34,11 @@
         grid-column: span 2;
     }
     
-    
+    .weather{
+        position:relative;
+        padding:110px 10px;
+           
+        }
 
 
 }
