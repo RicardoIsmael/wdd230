@@ -14,13 +14,20 @@
     box-sizing: border-box;
 }
 body{
-    width:760px;
-    height:auto;
+
+    max-width:860px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     margin:auto;
     padding:3px;
     font-family:'DM Sans', sans-serif;
     font-size:medium;
     font-weight: 600;
+}
+h1, h2{
+    font-family: "Vollkorn";
 }
 
 /*Here is the Dark mode code
@@ -28,10 +35,12 @@ body{
 main{
     background-color: #ffffff;
     color: #000;
+
 }
 
 
 header{
+    position: relative;
     border: 2px solid var(--first);
     text-align: center;
     border-radius:10px;
@@ -40,12 +49,17 @@ header{
     color:var(--thrid);
     padding: 10px;
 }
+header .dark{
+    position:absolute;
+    right:1em;
+}
 
 .change{
     float:right;
-    font-size: 40px;
+    font-size: 28px;
     padding:10px;
     cursor: pointer;
+    color:blck;
 }
 /*===============================================*/
 h2{
@@ -57,7 +71,7 @@ h2{
 
 .hero img{
     width:100%;
-    size-adjust:inherit;
+    object-fit: cover;
     border:3px solid var(--first);
     border-radius: 10px;
     padding: 3px;
@@ -81,10 +95,10 @@ section div{
     align-items: center;
 }
  .cabildo img{
-    width:400px;
-    height: 200px;
-    aspect-ratio: 1/1;
-    margin:10px auto;
+    width:100%;
+    height:auto;
+    object-fit:none;
+    margin:5px auto;
     border-radius: 10px;
     
 }
@@ -95,21 +109,26 @@ section div{
 }
 
  
-/*Mobile screen
+/*Hamburger Menu
 ==================================================*/
 
 .menu{
     display:block;
-    font-size: 21px;
+    font-size: 22px;
     text-decoration: none;
-    padding: 5px 5px;
+    padding: 2px 2px;
 }
 
 .menu::before{
     content:"▤";
     color: white;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 22px;
+}
+.menu .open::before{
+    content:"X";
+    color:white;
+
 }
 
 .menu{
@@ -128,13 +147,13 @@ nav{
 .nave{
     list-style: none;
 }
-.nave li{
+.nave li {
     display:none;
 }
-.nave a {
+.nave a{ 
     display: block;
-    padding: 8px;
-    text-align:left;
+    padding: 3px;
+    text-align:center;
     text-decoration: none;
     color:var(--thrid);
     transition: 0.5s;
@@ -145,15 +164,13 @@ nav{
     color:white;
     background-color: var(--first);
 }
-.open li{
+.open li {
     display:block;
-    margin-left:45%;
-}
-
-.menu .open::before{
-    content:"X"
 
 }
+
+
+
 /* Join a Chamber button creation
 =====================================================*/
 
@@ -162,7 +179,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-self: center;
-    top:14rem;
+    top:16rem;
     margin-left:25%;
     margin-right:25%;
     border: 3px solid var(--fiveth);

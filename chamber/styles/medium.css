@@ -1,8 +1,32 @@
-@media only screen and (min-width:38em){
+@media only screen and (min-width:17.5em){
+    header{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr; 
+        border: 2px solid var(--first);
+        text-align: center;
+        border-radius:8px;
+        margin-top:15px;
+        background-color:var(--first);
+        color:var(--thrid);
+        padding: 14px auto;
+    }
+    h1{
+        grid-column: 2/4;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width:40em){
+
    .nave{
         display:flex;
         flex-direction:row;
         justify-content: space-around;
+        padding:10px 0px;
         
    }
     
@@ -14,9 +38,9 @@
         display: none;
     }
     .nave li{
-        display: grid;
-        grid-row:auto;
-        justify-content: space-around;      
+        display:block;
+    
+              
     }
     
     main {
@@ -36,7 +60,8 @@
     
     .weather{
         position:relative;
-        padding:110px 10px;
+        padding:130px 10px;
+        
            
         }
 
