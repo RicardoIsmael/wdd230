@@ -1,14 +1,26 @@
+
+
 @media only screen and (max-width: 500px) {
-
-    body{
-    width:499px;
+body{
+   width:490px;
 }
+.hero{
+    width:95%;
+    object-fit: cover;
+}
+
+.herolabel p {
+    font-size:small;
+}
+    
 main{
-    display:grid;
-    grid-template-columns: 1fr;
-    gap:3px;
+    display: flex;
+    flex-direction: column;
 
 }
+
+
+
 
 /* Here I built the button, its position and shape*/
 button{
@@ -18,7 +30,7 @@ button{
 #menu {
     position:relative;
     bottom:7em;
-    left:23em;
+    left:22em;
     ;order:1px solid #acff70;
     background-color:#acff70;
     color:blue;
@@ -26,8 +38,8 @@ button{
 }
 #menu::before{
     content: "📚";
-    width:15%;
-    
+
+
 }
 
 #menu.open::before{
