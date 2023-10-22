@@ -8,7 +8,7 @@
         margin-top:15px;
         background-color:var(--first);
         color:var(--thrid);
-        padding: 14px auto;
+        padding: 14px ;
     }
     h1{
         grid-column: 2/4;
@@ -60,7 +60,7 @@
     
     .weather{
         position:relative;
-        padding:130px 10px;
+        padding: 10px;
         
            
         }

@@ -9,6 +9,9 @@
     <meta property="og:type"  content="website">
     <meta property="og:image" content="https://descubriendoargentina.com/ar/pampa/buenosaires/lujan/">
     <meta property="og:url" content="https://ricardoismael.github.io/wdd230/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@1,9..40&family=Roboto:wght@300&family=Vollkorn:ital,wght@1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet"  href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -39,14 +42,21 @@
         <div class="boton">
             <a href="#">Join a Chamber</a>
         </div>
-        <img src="images/rio-lujan-2.webp" width="640" height="320" alt="River of Lujan City">
+        <picture>
+            <source srcset="images/hero-small.webp" media="(max-width:400px)">
+            <source srcset="images/hero-medium.webp" media="(max-width:700px)">
+            <img src="images/hero-large.webp" width="960" height="480" alt="meeting of business">
+        </picture>
 
     </div>
         <section class="card">
             <div class="cabildo">
                 <h2>Lujan Book Fair!</h2>
-
-                <img  src="images/cabildo.webp" width="696" height="463" alt="cabildo image">
+                <picture>
+                    <source srcset="images/cabildo-smal.webp" media="(max-width:400px)">
+                    <source srcset="images/cabildo-medium.webp" media="(max-width:700px)">
+                    <img  src="images/cabildo-larger.webp" width="960" height="480" alt="cabildo image">
+                </picture>
                 <p>
                     Until the 15th, at the Municipal Museum of Fine Arts “Fernán Félix de Amador”, Las Recovas and Plaza Belgrano, the Luján Book Fair will be held.
                     
@@ -57,9 +67,22 @@
         </section>
         <section class="card">
             <div class="weather">
-
                 <h2 >Weather</h2>
-                <div id="ww_d52267b3b80a4" v='1.3' loc='id' a='{"t":"responsive","lang":"en","sl_lpl":1,"ids":["wl6271"],"font":"Arial","sl_ics":"one","sl_sot":"celsius","cl_bkg":"#303F9F","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_tof":"5","cl_odd":"#0000000a","el_wfc":3}'>More forecasts: <a href="https://wetterlang.de/munchen_wetter_30_tage/" id="ww_d52267b3b80a4_u" target="_blank">Wettervorhersage München 30 tage</a></div><script async src="https://app2.weatherwidget.org/js/?id=ww_d52267b3b80a4"></script>
+                <div class="box">
+                    <h3 class="tempvalue">tmperature</h3>
+                    <h3 class="des-temp">description</h3>
+                </div>
+                
+                <div class="box">
+                    <h3 class="ubication">location</h3>
+                    <img class="icon" src="icoUrl" alt="weather icon" width="120" height="120">
+                </div>
+                <div class="box">
+                    <h3>Wind speed</h3>
+                    <h3 class="velocity">velocity</h3>
+                    <h3 class="wch">wind chill</h3>
+
+                </div>
             </div>
         </section>  
         <section class="card">
@@ -79,7 +102,7 @@
     </main>
     <footer>
         <div>
-            <p>&copy; 2023-Ricardo Rojas-Argentina -  <img src="images/bandera1.webp" width="30" height="15" alt="My country flag"></p>
+            <p>&copy; 2023-Ricardo Rojas-Argentina -  <img src="images/bandera2.webp" width="30" height="15" alt="My country flag"></p>
             <p class="dat">Last Modified:</p>
         </div>
         <nav class="sociallinks">
@@ -92,6 +115,7 @@
           </nav>
     </footer>
     <script src="scripts/base.js"></script>
+    <script src="scripts/windchill.js"></script>
     
 </body>
 </html>

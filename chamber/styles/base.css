@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Vollkorn:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@1,9..40&family=Roboto:wght@300&family=Vollkorn:ital,wght@1,500&display=swap');
+
 
 :root{
     --first: #010221;
@@ -59,7 +58,7 @@ header .dark{
     font-size: 28px;
     padding:10px;
     cursor: pointer;
-    color:blck;
+    color:white;
 }
 /*===============================================*/
 h2{
@@ -85,10 +84,10 @@ section{
     margin:2px;    
 }
 section div{
-    border:3px solid var(--second);
+    
     border-radius:10px;
-    padding: 10px;
-    margin: 3px;
+    padding: 20px;
+    margin: 5px 5px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -97,8 +96,9 @@ section div{
  .cabildo img{
     width:100%;
     height:auto;
-    object-fit:none;
-    margin:5px auto;
+    object-fit:cover;
+    padding-bottom: 40px;
+    margin:3px auto;
     border-radius: 10px;
     
 }
@@ -121,7 +121,7 @@ section div{
 
 .menu::before{
     content:"▤";
-    color: white;
+    color: #ffffff;
     font-weight: 900;
     font-size: 22px;
 }
@@ -175,13 +175,11 @@ nav{
 =====================================================*/
 
 .boton{
-    position:relative;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    top:16rem;
-    margin-left:25%;
-    margin-right:25%;
+    position: relative;
+    top:28em;
+    margin-left:10%;
+    margin-right:10%;
+    text-align: center;
     border: 3px solid var(--fiveth);
     border-radius:10px;
     text-align: center;
@@ -198,7 +196,22 @@ nav{
 
 }
 /*=======================================================*/
+/* boxes of weather=======================================*/
+.box{
+    width:150px;
+    height: 150px;
+    border: 2px solid var(--second);
+    text-align: center;
+    padding:4px;
+    background: linear-gradient(var(--first),var(--second));
+    color: var(--thrid);
+}
+.box h3{
+    padding: 5px;
+    font-size: 22px;
+}
 
+/*================================================================*/
 
 footer  {
     display: flex;
