@@ -1,13 +1,15 @@
 /*local storage================================================================== */
-
+/* vaiables setting */
 const input= document.querySelector(".fachap")
 const button= document.querySelector('.buto')
 const lista= document.querySelector('.list')
 let chaptersArray = getChapterList() || [];
 
+
 chaptersArray.forEach(chapter =>{
     displayList(chapter);
 })
+/*when click button  the chapter is add in the setChapterList() */
 
 button.addEventListener('click', ()=>{
     if(input.value != ''){
@@ -31,7 +33,7 @@ button.addEventListener('click', ()=>{
             deleteChapter(li.textContent);
             input.focus();
         })
-        console.log('Esta bien esto')
+
     }
 
     function setChapterList(){
@@ -45,6 +47,7 @@ button.addEventListener('click', ()=>{
     function deleteChapter(chapter){        
     chapter= chapter.slice(0, chapter.length-1);
     chaptersArray= chaptersArray.filter((item) => item !== chapter);
+    getChapterList()
     }
     
 
