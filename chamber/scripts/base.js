@@ -30,3 +30,29 @@ darkbutton.addEventListener("click", ()=>{
     }
 })
 
+/*dicover code  number of visits============================ */
+const displayVisit = document.querySelector('.hoy')
+let numberVisits = Number(window.localStorage.getItem('visits') || 0);
+if(numberVisits !== 0){
+    displayVisit.textContent= numberVisits;
+
+}else{
+    displayVisit.textContent = "Welcome. This is your first visit..!"
+    
+}
+numberVisits++;
+
+localStorage.setItem('visits',numberVisits);
+
+
+/*date code ======================================== *
+
+
+
+
+
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++====== */

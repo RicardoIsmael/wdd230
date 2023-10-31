@@ -1,7 +1,4 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Rosarivo&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
   
   :root{
     --first-color:#7d8fff;
@@ -145,6 +142,9 @@ iframe{
   margin-bottom:4px;
   border:2px solid var(--second-color);
   
+}
+.we{
+  border-radius: 50px;
 }
 footer p{
   padding:5px;

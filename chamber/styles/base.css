@@ -34,6 +34,7 @@ h1, h2{
 main{
     background-color: #ffffff;
     color: #000;
+    border-radius: 10px;
 
 }
 
@@ -138,7 +139,7 @@ section div{
        
 }
 nav{
-    background-color: var(--second);
+    background-color:var(--fourth);
     border-radius:10px;
     margin:3px; 
 
@@ -212,7 +213,40 @@ nav{
 }
 
 /*================================================================*/
+                    /*Discover code*/
+/*Sidebar code===================================================*/
+nav a:hover:not(.active){
+    background: var(--second);
+    color:var(--thrid);
+ }
+ .sidebar a.active{
+    background:var(--first)
+ }
+ /*changes in the images==============================================*/
+ section .history{
+    display: grid;
+    grid-column: 2/span ;
+    font-size: 21px;
+    padding: 15px;
+    margin-left:8px;
+ }
+ .pictures p{
+    text-align: center;
+    font-size: 18px;
+ }
+ .storage{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 3px;
+    color:var(--thrid)
+}
+span{
+    padding: 3px;
+}
 
+
+/*=================================================================*/
 footer  {
     display: flex;
     flex-direction: row;
