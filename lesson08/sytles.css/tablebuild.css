@@ -1,0 +1,38 @@
+body{
+    padding: 20px;
+    box-sizing: border-box;
+    width: 600px;
+    margin:  50px auto;
+    font-size: 20px;
+    display: block;
+}
+table{
+
+    background-color: #232222;
+}
+
+td{
+    padding: 7px;
+    text-align: center;
+    font-weight: 600;
+
+}
+tr:first-child{
+    background-color: #232222;
+    color:#fff;
+    
+}
+tr:nth-child(even){
+    background-color: #aaffcc;
+}
+tr:nth-child(3){
+    background-color: white;
+}
+
+ tbody tr:first-child{
+    background-color:#657483;
+    padding:12px;
+}
+.first{
+    background-color: #232222;
+}
