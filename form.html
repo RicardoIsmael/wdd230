@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD230-Web frontend Development by Ricardo Rojas course assigment portal">
+    <meta name="author" content="Ricardo Rojas">
+    <meta property="og:title" content="Ricardo Rojas - WDD230 - Web Frontend Development">
+    <meta property="og:type"  content="website">
+    <meta property="og:image" content="https://descubriendoargentina.com/ar/pampa/buenosaires/lujan/">
+    <meta property="og:url" content="https://ricardoismael.github.io/wdd230/">
+    <link rel="canonical" href="https://ricardoismael.github.io/wdd230/">
+    <link rel="stylesheet"  href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+     <link rel="stylesheet" href="styles/larger.css">
+     <!--stylesheet form.css===============================-->
+     <link rel="stylesheet" href="styles/form.css">
+     
+     <link rel="stylesheet" href='https://fonts.googleapis.com/css2?family=Rosarivo&display=swap'>
+     <link rel="stylesheet" href='https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'>
+    <link rel="icon" href="favicon.ico">
+    <title>Ricardo Rojas - WDD230 - Web Frontend Development</title>
+</head>
+<body>
+    <header>
+        <img src="images/profile1.webp"  width="100" height="100"   alt="My photo profile">
+        <h1>Ricardo Rojas</h1>
+
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="nave">
+        <li><a href="#" class="active">Home</a></li>
+       <li><a href="chamber/siteplan.html">Site Plan</a></li>
+       <li><a href="chamber">Chamber</a></li>
+        <li><a href="https://www.byupathway.org" target="blank">BYU-Idaho</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a></li>
+        </ul>
+    </nav>
+    <h2>WDD230: Web Frontend Development</h2>
+    <main> 
+        <h1>Form Information</h1>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>Personal information</legend>
+                <label class="up">Name*<input type="text" name="name" id="name" required></label>
+                <label class="up">Last Name*<input type="text" name="lname" id="lname" required></label>
+                <label class="up">Password*<input type="password" name="password" id="password" pattern="[A-Za-z0-9]{8}" maxlength="8" placeholder="it's 8 characters" required></label>
+                <label class="up">Password Confirmation*<input type="password" name="cpassword" id="cpassword"  minlength="8" required></label>
+                <label class="up">Email*<input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please, enter a valid email address" placeholder="user@example.com" required></label>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Page Rating</legend>
+                <div id="rangevalue">0</div>
+              <label class="down"> <input type="range" id="range" name="range" min="0" max="10" value="0" step="1" list="rangevalues"></label>
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            
+            </fieldset>   
+            <input type="submit" name="submit" id="submit" value="Send My Information" class="myInf">
+        </form>
+
+    </main>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105135.09408004944!2d-59.19894281643563!3d-34.56692955101802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc7d87a664c641%3A0x55098796c55322ae!2sLuj%C3%A1n%2C%20Buenos%20Aires%20Province!5e0!3m2!1sen!2sar!4v1696024785363!5m2!1sen!2sar"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer>
+        <p>&copy; 2023-Ricardo Rojas-Argentina -  <img src="images/bandera1.webp" width="30" height="30" alt="My country flag"></p>
+        <p class="dat">Last Modified:</p>
+    </footer>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+</body>
+</html>
