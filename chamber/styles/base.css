@@ -246,6 +246,88 @@ span{
 }
 
 
+/*form CSS code=======================================================*/
+form{
+    display: block;
+    grid-column: span 2;
+    padding: 2px;    
+} 
+form h1{
+    text-align: center;
+}
+label {
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    font-size: 1.1rem;
+    font-family:"DM sans", sans-serif;
+    font-weight: 600;
+    padding:.8rem;
+
+}
+.two{
+    display: block;
+    padding:.75rem;
+
+}
+.one input{
+    padding: .75rem;
+    border-radius: .5rem;
+}
+fieldset{
+    border: 3px solid #92a295;
+    border-radius: 10px;
+    margin: 10px;;
+
+}
+legend{
+    text-align: center;
+    font-size: 21px;
+}
+.btnsubmit{
+    width:90%;
+    padding:8px;
+    margin-left: 20px;
+    margin-bottom: 4px;;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 21px;
+    font-weight: 600;
+    background:var(--fiveth);
+    border:3px solid var(--first);
+}
+.btnsubmit:hover{
+    font-size: 22px;
+}
+label.one input:required{
+    border-left: 5px solid red;
+
+}
+label.one input:required:valid{
+    border-left: 5px solid green;
+}
+.psection{
+    font-size: 18px;
+    padding:3px;
+}
+/*thankyou.html==================================================*/
+.tk1{
+    width:100%;
+    font-size: 60px;
+    padding:25px;
+    border: 8px double var(--fourth);
+    color:var(--first);
+    text-align: center;
+
+}
+.tk2{
+    font-size: 25px;
+    color:var(--first);
+}
+
+
 /*=================================================================*/
 footer  {
     display: flex;

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ricardo Rojas">
+    <meta name="description" content="Chamber Page">
+    <meta property="og:title" content="Chamber Page">
+    <meta property="og:type"  content="website">
+    <meta property="og:image" content="https://descubriendoargentina.com/ar/pampa/buenosaires/lujan/">
+    <meta property="og:url" content="https://ricardoismael.github.io/wdd230/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@1,9..40&family=Roboto:wght@300&family=Vollkorn:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon1.ico">
+    <title>Lujan Chamber of Commerce</title>
+</head>
+<body>
+
+    <header>
+       <div class="dark">
+            <span class="change"> ☀ </span>
+        </div>
+        <h1>Lujan Chamber of Commerce</h1>
+    
+    </header>
+    <a class="menu" href="#"></a>
+    <nav>
+        <ul class="nave">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">services</a></li>
+        </ul>
+    </nav>
+    <main>
+     <form  method="get" action="thankyou.html">
+        <h1>Application Form</h1>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label class="one">Name*<input type="text" name="name" id="name" required></label>  
+            <label class="one">Last Name*<input type="text" name="lname" id="lname" required></label>  
+            <label class="one">Title or Position*<input type="text" name="tipos" id="tipos" pattern="[a-zA-Z/s/-]{7,}" minlength="7" required></label>  
+            <label class="one">Email*<input type="email" name="email" id="email" placeholder="user@example.com" required></label>
+            <label class="one" >Telephone Number* <input type="tel" name="phone" id="phone" placeholder="12344321" required></label>
+        </fieldset>
+        <fieldset>
+            <legend>Membership Level</legend>
+            <label class="one">Organization's Name*<input type="text" name="org" id="org" required></label>
+            <label class="two"><input type="radio" name="member" id="nonprofit" value="np"> NP Membership is for non profit organizations</label>
+            <label class="two"><input type="radio" name="member" id="bronze" value="bronze"> Membership Bronze</label>
+            <label class="two"><input type="radio" name="member" id="silver" value="siver"> Membership Silver</label>
+            <label class="two"><input type="radio" name="member" id="gold" value="gold"> Membership Gold</label>
+            <label class="two">TimesTamp<input type="hidden" name="time" id="time"></label>
+        </fieldset>
+        <input class="btnsubmit" type="submit" name="submit" id="submit" value="Send My Application">
+     </form>
+     <section>
+        <h2>Membership Non Profit</h2>
+         <p class="psection">At this level, you would have access to business events  and legal capacitation. 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repellendus labore facilis ex officiis ipsum atque debitis impedit magni at, soluta, quos obcaecati cumque dolore temporibus adipisci hic mollitia totam eos deserunt nam. Voluptatibus debitis adipisci
+         </p>
+         <h2>Membership Bronze</h2>
+         <p class="psection">At the bronze level, you would be part of the business agenda, and you would receive all the statistical information of your area of commerce.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut rerum, repellat explicabo, quasi laboriosam asperiores a impedit iusto iste eos obcaecati culpa at fuga similique ullam fugit maiores dolorem laborum atque facere quae neque ad. Pariatur nostrum odit dolo
+         </p>
+     </section>
+     <section>
+        <h2>Membership Silver</h2>
+        <p class="psection">The silver level is very interesting for business that wants to export to the exterior. We offer contact with foreign companies and assistance in the process of exportation.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, deleniti consectetur nisi et vitae dolorum quam ex quibusdam perferendis! Corrupti quisquam ipsa.
+        </p>
+        <h2>Membership Gold</h2>
+        <p class="psection">At this level, the chamber provides advice at every step of your development of commercial. You would have meetings with CEO companies of the grand experience in the area where you are.
+            A technical team would evaluate your financial plan.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum accusantium odio in dolorem consectetur inventore tenetur unde placeat voluptatem corporis rem doloribus autem fuga nam soluta dolor sapiente.
+        </p>
+    </section>
+    </main>
+    <footer>
+        <div>
+            <p>&copy; 2023-Ricardo Rojas-Argentina -  <img src="images/bandera2.webp" width="30" height="15" alt="My country flag"></p>
+            <p class="dat">Last Modified:</p>
+        </div>
+        <nav class="sociallinks">
+            <a href="https://facebook.com" target="_blank">
+              <img src="images/1_Facebook.webp" width="30" height="30" alt="facebook" >
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <img src="images/twitterLogo.webp" width="30" height="30" alt="twitter Logo" >
+            </a>
+          </nav>
+    </footer>
+    <script src="scripts/base.js"></script>
+    <script src="scripts/windchill.js"></script>
+    
+</body>
+</html>
