@@ -88,4 +88,31 @@
         .history{
             font-size: 26px;
         }
+
+        /*main code for page=====================*/
+        .hero{
+            width:100%;
+            display: grid;
+            grid-column: span 5;
+            object-fit: cover;
+        }
+         
+        main{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            
+        }
+        .card .weather{
+            display: grid;
+            grid-column: 3/5;
+        }
+        
+          .last{
+            display: grid;
+            grid-column: 1/5;
+
+         }*/
+    
+       
+
 }

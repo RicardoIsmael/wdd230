@@ -2,7 +2,8 @@
 
     main{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
+        
         
         
     }
@@ -87,13 +88,24 @@ span{
 /*HeroImage  code=============================*/
 .hero{
     display: grid;
-    grid-column: span 4;
+    grid-column: span 2;
 }
-section div .cabildo{
-    display: block;
-    grid-column: span4;
+
+main :nth-child(2){
+    display:grid;
+    grid-column: 1/1;
 
 }
+.card .weather{
+    display: grid;
+    grid-column: 2/2;
+}
+
+  .last{
+    display: grid;
+    grid-column: 1/5;
+
+ }
 
 
 

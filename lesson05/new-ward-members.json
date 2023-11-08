@@ -1,0 +1,31 @@
+{
+    "familyName": "Rojas",
+    "dateMoved": "14 May 2023",
+    "numberOfRecords": 8754265,
+    "VisitedByBishopric": true,
+    "memberOfFamily":[{
+       "name":"Maria",
+       "gender":"female",
+       "Birthdate": "3 March"   
+
+    },
+    {
+        "name":"Rolando",
+        "gender": "male",
+        "Birthdate": "10 January"
+    },
+    {   "name":"Emilio",
+    "gender": "male",
+    "Birthdate": "23 December"
+
+    },
+    {
+        "name": "Sofia",
+        "gender": "female",
+        "Birthdate":"6 October"
+
+        }]
+
+
+
+}

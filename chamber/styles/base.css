@@ -15,9 +15,10 @@
 body{
 
     max-width:860px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     justify-content: center;
+    align-items: center;
 
     margin:auto;
     padding:3px;
@@ -89,8 +90,7 @@ section div{
     border-radius:10px;
     padding: 20px;
     margin: 5px 5px;
-    display:flex;
-    flex-direction: column;
+    display:grid;
     justify-content: center;
     align-items: center;
 }
