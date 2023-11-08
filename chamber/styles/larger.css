@@ -89,9 +89,9 @@ span{
     display: grid;
     grid-column: span 4;
 }
-section div{
+section div .cabildo{
     display: block;
-    grid-column: auto;
+    grid-column: span4;
 
 }
 
