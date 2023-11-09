@@ -29,7 +29,7 @@ section{
     justify-content: center;
 }
 img{  
-    border-radius: 10%; 
+    border-radius: 50%; 
     border:3px solid #289eed;   
 }
 img:hover{

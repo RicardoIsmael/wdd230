@@ -82,9 +82,10 @@
     /*Discover code ===============================*/
         .sidebar a{
             text-align: center;
+            
         
         }
-
+        
         .history{
             font-size: 26px;
         }
@@ -111,8 +112,21 @@
             display: grid;
             grid-column: 1/5;
 
-         }*/
+         }
     
+         main{
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .lateral{
+            position: fixed;
+            display: grid;
+            grid-column: 1/1;
+            max-width:33%;
+            height: 500px;
+        }
+        .pictures{
+            grid-column:2/4;
+        }
        
 
 }

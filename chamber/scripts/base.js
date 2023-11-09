@@ -45,7 +45,23 @@ numberVisits++;
 localStorage.setItem('visits',numberVisits);
 
 
-/*date code ======================================== *
+/*date.now() code ======================================== */
+const last= document.querySelector('.lastvisit');
+const report= document.querySelector('.minutesago');
+
+let today= Date.now();
+document.querySelector('.today').innerHTML= `${today} = ${new Date(today)}`;
+
+let lastVisit= localStorage.getItem("lastVisit");
+if(lastVisit){
+    last.innerHTML= `${lastVisit} = ${new Date(Number(lastVisit))}`;
+    let minutesago =Math.floor((today-lastVisit) / (1000));
+    report.innerHTML= `You last visited this page ${minutesago} second ago`;
+
+}else{
+    report.innerHTML = "Welcome. This is your first visit!";
+}
+localStorage.setItem("lastVisit", today);
 
 
 
