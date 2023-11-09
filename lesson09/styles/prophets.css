@@ -1,0 +1,53 @@
+body{
+    
+    
+    font-family: "roboto", sans-serif;
+    background-color: #142548;
+    
+
+}
+header{
+    text-align:center;
+    font-size: 30px;
+    color:#fff;
+
+
+}
+h2{
+    text-align:center;
+    font-family: "Rosarivo", sans-serif;
+    color:#fff;
+}
+#cards{
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+
+   
+}
+section{
+    display: grid;
+    justify-content: center;
+}
+img{  
+    border-radius: 10%; 
+    border:3px solid #289eed;   
+}
+img:hover{
+    box-shadow: 0 0 20px #fff;
+    width:100.5%;
+}
+
+footer{
+    
+    padding:3px;
+    margin-top:25px; 
+    border:2px solid #ffccaa;
+    font-size: 23px;
+    text-align: center;
+    background-color: #05284b;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;;
+}
+
+    
