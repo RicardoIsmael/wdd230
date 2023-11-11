@@ -1,6 +1,6 @@
 const baseURL= "https://ricardoismael.github.io/wdd230/";
 const linksURL= "https://ricardoismael.github.io/wdd230/data/links.json";
-const weeks= document.querySelector(".weeks");
+const woks= document.querySelector(".weeks");
 
 
 async function getLinks(){
@@ -13,17 +13,27 @@ getLinks()
 
 
 
-const displayLinks = (lessons)=>{
-    lessons.forEach(lesson => {
-    let arr= lesson.links;
-    for(let i= 0; arr.length; i++){
-        console.log(arr[i])
+const displayLinks = (weeks)=>{
+    weeks.forEach(week => {
+    let arr= week.links;
+    for(let i= 0; i < arr.length; i++){
+        console.log(arr)
+        let li= document.createElement('li')
+        let a = document.createElement('a');
+        li.textContent = `week: ${arr[i].url} | `;
+        a.textContent = arr[i].title;
+        a.href= a;
+        a.style.textDecoration= "none",
+        li.appendChild(a);
+        li.appendChild(a);
+        woks.appendChild(li);
     }
             
 
 
         })
  }
+
 
           
     
