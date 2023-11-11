@@ -5,6 +5,7 @@ async function getProphetData(){
     const response= await fetch(url);
             const data= await response.json();
             displayProphets(data.prophets);
+            
 }
 getProphetData();
 
@@ -28,6 +29,5 @@ const displayProphets = (prophets) =>{
         
     });
 }
-
 
 displayProphets()
