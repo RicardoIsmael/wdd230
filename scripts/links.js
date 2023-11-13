@@ -20,13 +20,14 @@ const displayLinks = (weeks)=>{
         console.log(arr)
         let li= document.createElement('li')
         let a = document.createElement('a');
-        li.textContent = `week: ${arr[i].url} | `;
+        li.textContent = `week: ${arr[i].url}`;
         a.textContent = arr[i].title;
         a.href= a;
         a.style.textDecoration= "none",
         li.appendChild(a);
         li.appendChild(a);
         woks.appendChild(li);
+        
     }
             
 
