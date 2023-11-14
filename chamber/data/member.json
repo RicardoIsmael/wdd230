@@ -3,7 +3,7 @@
         {
             "name": "Foresta",
             "address": "Ruta N5, Ana M. Donatti, Lujan",
-            "telephone": 54-2323-328075,
+            "telephone":542323328075,
             "website": "https://laforestamaderas.com.ar/",
             "imageurl": "chamber/images/foresta.webp",
             "membership level":"Bronce"
@@ -12,7 +12,7 @@
     {
         "name": "Kopruch",
         "address": "ciudadela 3460, Lujan",
-        "telephone": 54-2323-432323,
+        "telephone":542323432323,
         "website": "https://maderaskopruch.com.ar",
         "imageurl": "chamber/images/kopruch.webp",
         "membership level": "Silver"
@@ -21,7 +21,7 @@
     {
         "name": "Flandria",
         "address": "Flandes 1272, jauregui, Lujan",
-        "telephone": 54-2323-497345,
+        "telephone":542323497345,
         "website": "https://parqueflandria.com.ar",
         "imageurl": "chamber/images/flandria.webp",
         "membership level": "NP"
@@ -30,7 +30,7 @@
     {
         "name": "Electricidad del Oeste",
         "address": "Dr. Muñiz 677, Lujan",
-        "telephone": 54-2323-6124,
+        "telephone": 5423236124,
         "website": "https://electricidadeloeste.com.ar",
         "imageurl": "chamber/images/elecOeste.webp",
         "membership level":"Gold"
@@ -39,7 +39,7 @@
     {
         "name": "Estructuras Crechet",
         "address": "Colectora Gaona 2726, Lujan",
-        "telephone": 54-2323-422058,
+        "telephone": 542323422058,
         "website": "https://estructurascrechet.com.ar",
         "imageurl": "chamber/images/metalurgica.webp",
         "membership level": "Silver"
@@ -48,7 +48,7 @@
     {
         "name": "Muebles Ilariucci",
         "address": "Mariano Moreno 794, Lujan",
-        "telephone": 54-2323-428828,
+        "telephone": 542323428828,
         "website": "https://ilariuccimuebles.com.ar",
         "imageurl": "chamber/images/muebleria.webp",
         "membership level":"Bronce"
@@ -57,7 +57,7 @@
     {
         "name": "Di Martino Propiedades",
         "address": "Lavalle 889, Lujan",
-        "telephone": 54-2323-201444,
+        "telephone": 542323201444,
         "website": "https://dimartinoprop.com.ar",
         "imageurl": "chamber/images/inmobiliaria.webp",
         "membership level":"Gold"
