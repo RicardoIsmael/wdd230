@@ -52,10 +52,6 @@
 
 
 
-
-
-
-
 @media only screen and (min-width:35em){
 
    .nave{
@@ -116,9 +112,10 @@
     
          main{
             grid-template-columns: 1fr 1fr 1fr;
-        }
+         }
+        
         .lateral{
-            position: fixed;
+            position:fixed;
             display: grid;
             grid-column: 1/1;
             max-width:33%;
@@ -127,6 +124,103 @@
         .pictures{
             grid-column:2/4;
         }
+    /*=============Directory.html==========================*/
+    .bx {
+        display: grid;
+        grid-template-columns: repeat(3, 290px);
+        gap:15px;
+        grid-auto-flow: dense;
+        grid-auto-rows: auto;
+        align-items: center;
+    
+        
+    }
+    .bx img{
+        width: 180px;
+        margin:0 auto;
+        padding:8px;
+        border: 1px solid #032667;
+    }
+    .bx h3{
+        font-family: "roboto", sans-serif;
+        text-align: center;
+        font-size:23px;
+        padding:3px;
+    }
+    .bx p, a{
+        font-family: "DM Sans";
+        text-align: center;
+        margin: 0 auto;
+        font-size:17px;
+    }
+    
+    
+     .bx section {
+        display: block;
+        align-items: center;
+        border: 3px solid #032667;
+        background-color: #e2f8c3;
+        box-shadow: 0 0 35px ;
+    }
+    .bx section:hover{
+        background-color: #a9f576;
+        
+    }
+    /*==========button of Grid  and list========================*/
+     .menus{
+    display: grid;
+    grid-column: span 3;
+        position: relative;
+    gap: 3px;
+    }
+    .menus button{
+        width:90%;
+        font-size: 25px;
+        font-weight: 600;
+        margin:15px;
+        padding:10px;
+        border-radius: 12px;
+        border: 2px solid #123678;
+    }
+    .menus button:hover{
+        background-color: #74eb74;
+    }
+    
+    /*=========List code=====================================*/
+     .list section {   
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+        border: 2px solid white;
+        margin:0;
+        background-color: white;   
+    
+    } 
+    .list .bx{
+        display: grid;
+        grid-template-columns:860px; 
+        gap: 5px;
+        margin:3px;
+        padding: .25rem;
+    }
+    .list .bx section:nth-child(odd){
+        background-color: #aef6c8;
+    }
+    
+     
+     .list img{
+        display: none;
+    }
+    
+    .list section h3{
+        font-size: 1.2rem;
+        font-family: "roboto", sans-serif;
+    }
+    .list section p {
+        font-family: "roboto", sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+    }
        
 
 }

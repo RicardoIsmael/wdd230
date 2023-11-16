@@ -326,6 +326,118 @@ label.one input:required:valid{
     font-size: 25px;
     color:var(--first);
 }
+/* cards of the directory-Html==================================================*/
+
+
+.bx {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:15px;
+    grid-auto-flow: dense;
+    grid-auto-rows: auto;
+    align-items: center;
+
+    
+}
+.bx img{
+    margin-left: 35%;
+    align-items: center;
+    padding:8px;
+    border: 1px solid #032667;
+
+}
+.bx section h3{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size:25px;
+    padding:3px;
+}
+.bx p, a{
+    font-family: "DM Sans";
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+    font-size:21px;
+}
+.bx:first-child{
+   color: #160231;
+}
+
+
+ .bx section {
+    display: block;
+    align-items: center;
+    border: 3px solid #719ff5;
+    background-color: #c4f881;
+    box-shadow: 0 0 35px ;
+}
+.bx section:hover{
+    background-color: #76b3f5;
+    
+}
+.menus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+}
+.menus button{
+    width:40%;
+    font-size: 25px;
+    font-weight: 600;
+    margin:15px;
+    padding:10px;
+    border-radius: 12px;
+    border: 2px solid #123678;
+}
+.menus button:hover{
+    background-color: #74eb74;
+}
+
+/*=========List code=====================================*/
+.list section {   
+    display: grid;
+    grid-template-columns:  1fr;
+    gap: 5px;
+    border: 2px solid white;
+    margin: 0;
+    background-color: white;   
+
+} 
+.list .bx{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: dense;
+    grid-auto-columns:max-content;
+    align-items:center;
+    gap: 5px;
+    margin:3px;
+    padding: .25rem;
+}
+.list .bx section:nth-child(odd){
+    background-color: #aef6c8;
+}
+
+ 
+ .list img{
+    display: none;
+}
+
+.list section h3{
+    font-size: 1.2rem;
+    font-family: "roboto", sans-serif;
+}
+.list section p{
+    font-family: "roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+
+
 
 
 /*=================================================================*/
