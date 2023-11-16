@@ -1,0 +1,30 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: #0b5cad;
+}
+
+main, footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p, figcaption{
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#4c0434;
+    font-weight: 600;
+}
+img{
+    border: 2px solid #253478;
+    border-radius: 7px;
+
+}
