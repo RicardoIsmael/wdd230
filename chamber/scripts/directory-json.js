@@ -1,5 +1,5 @@
 const base = "https://ricardoismael.github.io/wdd230/";
-const linea= "/chamber/data/member.json";
+const linea= "https://ricardoismael.github.io/wdd230/chamber/data/member.json";
 
 const square= document.querySelector('.bx');
 
