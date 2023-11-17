@@ -70,7 +70,14 @@
         <section class="card">
             <h3>Information</h3>
             <p>Weather</p>
-            <div class="we" id="ww_40149bc8690c5" v='1.3' loc='id' a='{"t":"responsive","lang":"en","sl_lpl":1,"ids":["wl6271"],"font":"Arial","sl_ics":"one","sl_sot":"celsius","cl_bkg":"#CDDC39","cl_font":"#000000","cl_cloud":"#000000","cl_persp":"#000000","cl_sun":"#000000","cl_moon":"#000000","cl_thund":"#000000","el_wfc":3,"sl_tof":"3","cl_odd":"#0000000a"}'>More forecasts: <a href="https://wetterlang.de/munchen_wetter_30_tage/" id="ww_40149bc8690c5_u" target="_blank">München wetter 30 tage</a></div><script async src="https://app2.weatherwidget.org/js/?id=ww_40149bc8690c5"></script>
+            <p class="weather-p">Temperature: <span class="current-temp"></span></p>
+            <p class="weather-p"><span class="data-name"></span></p>
+            
+            <figure>
+                <img class="weather-icon" alt="Image of weather">
+                <figcaption class="weather-p"></figcaption>
+            </figure>
+
             <p ><span> Visits to page:</span><span class="nVisit"></span></p>
         </section>
     </main>
@@ -81,5 +88,6 @@
     </footer>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/links.js"></script>
+    
 </body>
 </html>
