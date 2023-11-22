@@ -78,3 +78,4 @@ const displayResults = (data) => {
     
     captionDesc.textContent = convert(desc);
 }
+

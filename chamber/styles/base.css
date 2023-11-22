@@ -198,18 +198,23 @@ nav{
 }
 /*=======================================================*/
 /* boxes of weather=======================================*/
-.box{
-    width:150px;
-    height: 150px;
-    border: 2px solid var(--second);
+section .box{
     text-align: center;
-    padding:4px;
-    background: linear-gradient(var(--first),var(--second));
-    color: var(--thrid);
 }
 .box h3{
     padding: 5px;
-    font-size: 22px;
+    font-size: 23px;
+    align-items: center;
+}
+.box p:nth-child(even){
+    color:rgb(227, 9, 9);
+    padding:3px;    
+}
+.box img{
+    border: 3px solid var(--first);
+    border-radius: 10px;
+    margin:4px auto;
+    background-color: #74baeb;
 }
 
 /*================================================================*/
@@ -433,7 +438,53 @@ label.one input:required:valid{
     font-size: 1rem;
     font-weight: 600;
 }
+/*==========banner-code=====================================*/
 
+.show-banner{
+    display: block;
+    border: 3px solid var(--first);
+    border-radius: 8px;
+    background-color:#c2f45e;
+    font-family: "Vollkorn", sans-serif;
+    padding:4px;
+}
+.show-banner h3{
+    text-align: center;
+    font-size: 25px;
+    color:rgb(230, 27, 27);
+}
+.show-banner  p {
+    text-align:  center;
+    font-size: 30px;
+    color: rgb(79, 9, 9);
+    animation: around;
+    animation-duration: 10s;
+
+}
+@keyframes around {
+    from{
+        transform: rotateY(0deg);
+      }
+    
+      to{
+        transform:rotateY(360deg);
+      }
+       
+}
+.show-banner p{
+    font-size: 21px;
+}
+/*============banner close button===============*/
+ button.close-banner{
+    display: block;
+    margin: 0 auto;
+    padding: 3px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: 2px solid #010221;
+    border-radius: 8px;
+    color:#010221
+}
 
 
 
