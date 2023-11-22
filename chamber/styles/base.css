@@ -207,7 +207,9 @@ section .box{
     align-items: center;
 }
 .box p:nth-child(even){
-    color:rgb(227, 9, 9);
+    color:rgb(24, 4, 96);
+    font-size: 25px;
+    font-weight: 800;
     padding:3px;    
 }
 .box img{
@@ -444,14 +446,14 @@ label.one input:required:valid{
     display: block;
     border: 3px solid var(--first);
     border-radius: 8px;
-    background-color:#c2f45e;
+    background-color:#f3eb0a;
     font-family: "Vollkorn", sans-serif;
     padding:4px;
 }
 .show-banner h3{
     text-align: center;
     font-size: 25px;
-    color:rgb(230, 27, 27);
+    color:rgb(47, 3, 3);
 }
 .show-banner  p {
     text-align:  center;
@@ -477,13 +479,13 @@ label.one input:required:valid{
 /*============banner close button===============*/
  button.close-banner{
     display: block;
-    margin: 0 auto;
+    position: sticky;
+    left:90%;
+    border: none;
     padding: 3px;
     letter-spacing: 1px;
     font-weight: 600;
-    border: 2px solid #010221;
-    border-radius: 8px;
-    color:#010221
+    background-color:#f3eb0a;
 }
 
 
