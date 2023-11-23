@@ -320,12 +320,16 @@ label.one input:required:valid{
     padding:3px;
 }
 /*thankyou.html==================================================*/
+
+.thank-page{
+    display: block;
+    
+}
 .tk1{
     width:100%;
     font-size: 60px;
     padding:25px;
-    border: 8px double var(--fourth);
-    color:var(--first);
+    color:red;
     text-align: center;
 
 }

@@ -37,26 +37,31 @@ if(numberVisits !== 0){
     displayVisit.textContent= numberVisits;
 
 }else{
-    displayVisit.textContent = "Welcome. This is your first visit..!"
-    
+   displayVisit.textContent= numberVisits=1
 }
 numberVisits++;
 
 localStorage.setItem('visits',numberVisits);
 
 
-/*date.now() code ======================================== */
+/*=========date.now() code ======================================== */
 const last= document.querySelector('.lastvisit');
 const report= document.querySelector('.minutesago');
 
 let today= Date.now();
-document.querySelector('.today').innerHTML= `${today} = ${new Date(today)}`;
+let fecha = new Date(today);
+const option={year:"numeric", month:"2-digit", day:"2-digit"};
+const fechaToday = fecha.toLocaleDateString(undefined, option)
+let hour = new Date();
+const hour1 = hour.toLocaleDateString(undefined, option);
+
+document.querySelector('.today').innerHTML= fechaToday;
 
 let lastVisit= localStorage.getItem("lastVisit");
 if(lastVisit){
-    last.innerHTML= `${lastVisit} = ${new Date(Number(lastVisit))}`;
+    last.innerHTML= `${new Date(Number(lastVisit)).toLocaleDateString(undefined, option)}`;
     let minutesago =Math.floor((today-lastVisit) / (1000));
-    report.innerHTML= `You last visited this page ${minutesago} second ago`;
+    report.innerHTML= `You last visited to this page ${minutesago} second ago`;
 
 }else{
     report.innerHTML = "Welcome. This is your first visit!";
