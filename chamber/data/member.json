@@ -6,7 +6,7 @@
             "telephone":542323328075,
             "website": "https://laforestamaderas.com.ar/",
             "imageurl": "https://ricardoismael.github.io/wdd230/chamber/images/foresta.webp",
-            "membershiplevel":"Bronze"
+            "membershiplevel":"Gold"
         
     },
     {
@@ -24,7 +24,7 @@
         "telephone":542323497345,
         "website": "https://parqueflandria.com.ar",
         "imageurl": "https://ricardoismael.github.io/wdd230/chamber/images/flandria.webp",
-        "membershiplevel": "NP"
+        "membershiplevel": "Gold"
     
     },
     {
@@ -60,7 +60,7 @@
         "telephone": 542323201444,
         "website": "https://dimartinoprop.com.ar",
         "imageurl": "https://ricardoismael.github.io/wdd230/chamber/images/inmobiliaria.webp",
-        "membershiplevel":"Gold"
+        "membershiplevel":"NP"
     
     }
 ]

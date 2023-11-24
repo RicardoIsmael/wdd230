@@ -1,5 +1,5 @@
 const base = "https://ricardoismael.github.io/wdd230/";
-const linea= "https://ricardoismael.github.io/wdd230/chamber/data/member.json";
+const linea= "data/member.json";
 
 const square= document.querySelector('.bx');
 
@@ -20,7 +20,8 @@ const displayMember = (members)=>{
         let address= document.createElement('p')
         let level = document.createElement('p')
         let a = document.createElement('a')
-
+        
+        
         name.textContent = `${member.name}`;
         imga.setAttribute('src', member.imageurl)
         imga.setAttribute('loading', 'lazy')
@@ -30,7 +31,7 @@ const displayMember = (members)=>{
         level.textContent = ` Membership Level: ${member.membershiplevel}`
         a.textContent= `${member.website}`
         a.href= `${member.website}`
-
+        
         section.appendChild(name)
         section.appendChild(imga)
         section.appendChild(address)

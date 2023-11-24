@@ -19,7 +19,6 @@ body{
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
-
     margin:auto;
     padding:3px;
     font-family:'DM Sans', sans-serif;
@@ -66,6 +65,7 @@ header .dark{
 h2{
     text-align:center;
     padding:8px;
+    font-size: 25px;
 }
 
 
@@ -93,6 +93,9 @@ section div{
     display:grid;
     justify-content: center;
     align-items: center;
+}
+section p{
+    font-size: 22px;
 }
  .cabildo img{
     width:100%;
