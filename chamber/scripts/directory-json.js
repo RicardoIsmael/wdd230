@@ -1,5 +1,5 @@
 const base = "https://ricardoismael.github.io/wdd230/";
-const linea= "https://ricardoismael.github.io/wdd230/data/member.json";
+const linea= "https://ricardoismael.github.io/wdd230/chamber/data/member.json";
 
 const square= document.querySelector('.bx');
 
@@ -12,7 +12,7 @@ getlinks();
 
 const displayMember = (members)=>{
     members.forEach((member) => {
-        console.log(member)
+
         
         let section = document.createElement('section')
         let name = document.createElement('h3')
