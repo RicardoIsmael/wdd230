@@ -1,0 +1,64 @@
+@media only screen and (max-width:600px) {
+
+/*================ menu hamgurger code ==========*/
+    .menu{
+        display:block;
+        font-size: 22px;
+        text-decoration: none;
+        padding: 2px 2px;
+    }
+    
+    .menu::before{
+        content:"📚";  
+        font-weight: 900;
+        font-size: 22px;
+    }
+    .menu.open::before{
+        content:"❌";
+        
+    
+    }
+    
+    .menu{
+        position:absolute;
+        top:.2em;
+        margin-left:1em;
+    }
+    
+    .nave{
+        list-style: none;
+    }
+    .nave li {
+        display:none;
+
+    }
+
+    .nave  ul{ 
+        display:block;
+        padding: 3px;
+        text-align:center;
+        text-decoration: none;
+        color:var(--thrid);
+        transition: 0.5s;
+        font-size: clamp(17px,21px,23px);
+        font-weight: 700;
+    }
+    .nave a:hover{
+        color:white;
+        background-color: var(--first);
+    }
+    .open  li {
+        display:block;
+    
+    }
+    /*================== button of call action =========*/
+    .call a{
+        font-size: 20px;
+    }
+    /*=========== map-location ===============*/
+    iframe{
+        width: 230px;;
+        height: 200px;
+    }
+    
+}

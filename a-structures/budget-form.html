@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This page allows tha user get a budget for their project with some opportunities and offer of the company">
+    <meta name="author" content="Ricardo Ismael Rojas">
+    <meta property="og:title" content="Ricardo Rojas - WDD230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://descubriendoargentina.com/ar/pampa/buenosaires/lujan/">
+    <meta property="og:url" content="https://ricardoismael.github.io/wdd230/">
+    <link rel="canonical" href="https://ricardoismael.github.io/wdd230/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sanchez:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/struc-larger.css">
+    <link rel="stylesheet" href="styles/struc-mediun.css">
+    <link rel="stylesheet" href="styles/struc-base.css">
+    <link rel="icon" href="favicon.ico">
+    <title> Services Form of A-structures Company </title>
+</head>
+
+<body>
+    <header>
+        <h1>A-structures</h1>
+        <div class="dark"><span class="light">🌞</span></div>
+        <div class="menu" ></div>
+        <nav class="nave">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="budget-form.html">Services</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="call">
+        
+            <h2>Services Form</h2>
+        </div>
+        <picture>
+            <img src="images/build1-ratio.webp" width="800" height="400" alt="This is the Hero Image" loading="lazy">
+        </picture>
+
+    </header>
+    <main>
+       
+            <section class="sect-five">
+            <h2>All Project</h2>
+            <p>This means that our company is responsible for showing you the different options your idea may be in.
+                We will present many project designs with your supervision on the details you want to develop. We count on designers and engineers who will be at your disposal for any doubt.
+                You'll count on financial advice and cost evaluation.
+                We'll work with you on the whole project development.</p>
+
+                <h2>Project Design</h2>
+                <p>Design is important in any building project, details enhance all the work.
+                    Our designers have a lot of experience in the industry, and they'll be a great 
+                    help for your work. We offer you a lot of design options, we invite you to meet 
+                    with us and talk about your ideas.</p>
+        </section>
+        <section class="sect-six">
+            <h2>Financial Projection</h2>
+            <p>We want to collaborate with you in your first steps toward your goals. 
+                It's imperative to be clear about the cost of any enterprise, it means that before any
+                 movement of money, you must do the numbers.
+                We count on professionals that they'll be glad to help you with these important issues.
+                We invite you to meet with us and discuss these points.</p>
+                <h2>Supervision Project</h2>
+                <p>Supervision is important in many areas of work, which means that you can save a lot of money.
+                    We count on great professionals on these issues, we have many companies that trust us. We supervise five projects for companies in our country and two companies in a foreign country.
+                    We are to help you, we invite you to meet with us.</p>
+        </section>
+        <section class="sect-seven">
+            <h2>Application Form</h2>
+            <form method="get"  action="yourWelcome.html" target="_blank">
+                
+                <fieldset>
+                    <legend>Personal Data</legend>
+                    <label class="data1">Name*<input type="text" name="name" id="name" required ></label>
+                    <label class="data1">Last Name*<input type="text" name="lastname" id="lastname" required ></label>
+                    <label class="data1">Telephone*<input type="tel" name="phone" id="phone" placeholder="43211234" required ></label>
+                    <label class="data1">Email*<input type="email" name="email" id="email"  placeholder="example@gmail.com" required ></label>
+                    <label class="data1">Company Name*<input type="text" name="org" id="org" required ></label>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>What subject are you interested in?</legend>
+                    <label class="data2"><input type="radio" name="project" id="all" value="all">All project</label>
+                    <label class="data2"><input type="radio" name="project" id="projet-design" value="project-design">Project Design</label>
+                    <label class="data2"><input type="radio" name="project" id="financial-project" value="financial-projection">Financial Projection</label>
+                    <label class="data2"><input type="radio" name="project" id="supervision-project" value="supervision-project">Supervision Project</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Please, if you have a specific topic write here.</legend>
+                    <label><textarea name="topic" id="topic" cols="30" rows="10" placeholder="We are interested in your questions"></textarea></label>
+                </fieldset>
+                 <input class="submit-btn" type="submit" name="submit" id="submit" value="Send My Information">
+            </form>    
+        </section>
+       
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy; 2023 -- Ricardo Rojas -- Argentina -- A-structures</p>
+            <p>Mitre street 2200 - Lujan - 6700</p>
+        </div>
+        <p class="atributions">
+            <a href="atributions.html" target="_blank">link: atributions</a>
+        </p>
+
+        <nav class="social-link">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/1_Facebook.webp" width="30" height="30" alt="facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitterLogo.webp" width="30" height="30" alt="twitter Logo">
+            </a>
+        </nav>
+    </footer>
+    <script src="scripts/button.js"></script>
+</body>
+
+</html>

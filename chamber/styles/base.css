@@ -129,7 +129,7 @@ section p{
     font-weight: 900;
     font-size: 22px;
 }
-.menu .open::before{
+.menu.open::before{
     content:"X";
     color:white;
 
@@ -182,7 +182,7 @@ nav{
     position: relative;
     top:28em;
     margin-left:10%;
-    margin-right:10%;
+   margin-right:10%;
     text-align: center;
     border: 3px solid var(--fiveth);
     border-radius:10px;
@@ -390,6 +390,7 @@ label.one input:required:valid{
     background-color: #76b3f5;
     
 }
+/*==========menu button ==============*/
 .menus{
     display: flex;
     flex-direction: row;

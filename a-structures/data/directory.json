@@ -1,0 +1,60 @@
+{
+  "members": [
+    {
+      "pictureUrl": "./images/photos/photo1.webp",
+      "name": "Daniel Cortese",
+      "position": "CEO Manager",
+      "telephone": "232354548",
+      "email": "dcortese@gmail.com"
+    },
+    {
+      "pictureUrl": "./images/photos/photo2.webp",
+      "name": "Willian Snow",
+      "position": "Finance Director",
+      "telephone": "232398076",
+      "email": "Wsnowe@gmail.com"
+    },
+    {
+      "pictureUrl": "./images/photos/photo3.webp",
+      "name": "Manuel Arch",
+      "position": "Design Director",
+      "telephone": "232367548",
+      "email": "March@gmail.com"
+    },
+    {
+      "pictureUrl": "./images/photos/photo4.webp",
+      "name": "Jacinto Philips",
+      "position": "Construction Manager",
+      "telephone": "232309897",
+      "email": "Jphilips@gmail.com"
+    },
+    {
+      "pictureUrl": "./images/photos/photo5.webp",
+      "name": "Santiago Murray",
+      "position": "Supervision Director",
+      "telephone": "232354548",
+      "email": "Smurray@gmail.com"
+    },
+    {
+      "pictureUrl": "./images/photos/photo6.webp",
+      "name": "Silvester Sullivan",
+      "position": "Designer Senior",
+      "telephone": "232312095",
+      "email": "Ssullivan@gmail.com"
+    },
+    {
+      "pictureUrl": "./images/photos/photo7.webp",
+      "name": "Charles Chaplin",
+      "position": "Operational Manager",
+      "telephone": "232308613",
+      "email": "Cchaplin@gmail.com"
+    },
+    {
+      "pictureUrl": "./images/photos/photo8.webp",
+      "name": "Robert Court",
+      "position": "Commucations Manager",
+      "telephone": "232354548",
+      "email": "Rcourt@gmail.com"
+    }
+  ]
+}
