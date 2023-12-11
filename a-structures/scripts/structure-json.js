@@ -1,5 +1,5 @@
 const links= "https://ricardoismael.github.io/wdd230/";
-const info = "./data/directory.json";
+const info = "https://ricardoismael.github.io/wdd230/a-structures/data/directory.json";
 
 const caja = document.querySelector('.box')
 
